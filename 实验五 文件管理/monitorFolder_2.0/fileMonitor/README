@@ -1,0 +1,36 @@
+
+README
+
+This is fileMonitor program readme file.
+fileMonitor is for monitor the files or directories to see if any changes happen, for example delete or create.
+
+You can use it by set the configure file in /etc/fileMonitor.conf or you can use the command options.
+Example: fileMonitor -d /home
+
+Also, you can use it as a service. So that you can start fileMonitor like
+sudo /etc/init.d/fileMonitor start
+
+Remember you should start fileMonitor by root, or it will fail.
+
+
+CONTACT
+
+If you have problems, questions, ideas or suggestions, please contact me
+by email to 2008rengaojun@sina.com.
+
+WEB SITE
+
+Visit the fileMonitor web site for the latest news and downloads:
+
+http://gaojunren.com/fileMonitor
+
+INSTALLATION
+
+./configure
+
+make
+
+sudo make install
+
+sudo ./beService.sh
+
